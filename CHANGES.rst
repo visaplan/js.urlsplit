@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0.dev1 (unreleased)
----------------------
+1.0 (2019-06-07)
+----------------
 
-- Initial release.
+- Initial release, containing urlSplit.js v2.1.2.
   [tobiasherp]

@@ -15,25 +15,10 @@ Features
 - Adds the compressed version to the Javascript registry
 
 
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
 Documentation
 -------------
 
 For the Javascript functonality, please see `urlSplit.js`.
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
 
 
 Installation
@@ -62,13 +47,6 @@ For the Zope / Plone integration:
 - Issue Tracker: https://github.com/collective/visaplan.js.urlsplit/issues
 - Source Code: https://github.com/collective/visaplan.js.urlsplit
 - Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
 
 
 License

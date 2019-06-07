@@ -42,7 +42,6 @@ setup(
         'plone.api>=1.8.4',
         'Products.GenericSetup>=1.8.2',
         'setuptools',
-        'z3c.jbot',
         'plone.app.dexterity<=2.1.1',
         'plone.app.referenceablebehavior',
         'plone.app.relationfield',

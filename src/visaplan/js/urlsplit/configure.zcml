@@ -42,6 +42,15 @@
       name="visaplan.js.urlsplit-hiddenprofiles"
       />
 
+  <!-- [ Statische Ressourcen (++resource++) ... [ -->
+  <include package="plone.resource" file="meta.zcml"/>
+
+  <browser:resourceDirectory
+      name="visaplan.js.urlsplit"
+      directory="resource"
+      />
+  <!-- ] ... Statische Ressourcen (++resource++) ] -->
+
   <!-- -*- extra stuff goes here -*- -->
 
 </configure>

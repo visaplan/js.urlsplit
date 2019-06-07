@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.0.1 (unreleased)
+1.0.1 (2019-06-07)
 ------------------
 
-- Corrected internet links.
+- Corrected internet links; improved installation documentation.
   [tobiasherp]
 
 

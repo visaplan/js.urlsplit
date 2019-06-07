@@ -5,8 +5,6 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="visaplan.js.urlsplit">
 
-  <i18n:registerTranslations directory="locales" />
-
   <!--
     Be careful if you use general includeDependencies, it can have sideffects!
     Better import explicite packages or configurations ;)

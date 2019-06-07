@@ -6,19 +6,20 @@
 visaplan.js.urlsplit
 ====================
 
-This is a simple Zope / Plone integration of the `urlSplit.js`_ Javascript tool.
+This is a simple Zope / Plone integration of the `urlSplit.js`_ Javascript tool
+which provides a ``urlSplit(url_string)`` function.
 
 Features
 --------
 
-- Makes available both the comprssed and uncompressed versions of ``urlSplit.js``
+- Makes available both the compressed and uncompressed versions of ``urlSplit.js``
 - Adds the compressed version to the Javascript registry
 
 
 Documentation
 -------------
 
-For the Javascript functonality, please see `urlSplit.js`.
+For the Javascript functionality, please see `urlSplit.js`.
 
 
 Installation
@@ -34,7 +35,31 @@ Install visaplan.js.urlsplit by adding it to your buildout::
         visaplan.js.urlsplit
 
 
-and then running ``bin/buildout``
+and then running ``bin/buildout``.
+
+After restarting your Zope instance, install the extension using the ``/prefs_install_products_form``.
+
+
+As a dependency
+~~~~~~~~~~~~~~~
+
+- Add the package to your package dependencies, e.g. in your ``setup.py``::
+
+    ...
+    install_requires=[
+        'setuptools',
+        'visaplan.js.urlsplit',
+        ],
+    ...
+
+- Add the package to your profile depencencies, e.g. in your ``profiles/default/metadata.xml``::
+
+    <version>1000</version>
+    <dependencies>
+      <dependency>profile-visaplan.js.urlsplit:default</dependency>
+    </dependencies>
+
+- Restart your Zope instance and re-install your package.
 
 
 Contribute
@@ -44,9 +69,8 @@ For the Javascript functionality, please contribute to `urlSplit.js`_.
 
 For the Zope / Plone integration:
 
-- Issue Tracker: https://github.com/collective/visaplan.js.urlsplit/issues
-- Source Code: https://github.com/collective/visaplan.js.urlsplit
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/visaplan/js.urlsplit/issues
+- Source Code: https://github.com/visaplan/js.urlsplit
 
 
 License

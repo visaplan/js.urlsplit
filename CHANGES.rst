@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.1 (unreleased)
+------------------
+
+- Corrected internet links.
+  [tobiasherp]
+
 
 1.0 (2019-06-07)
 ----------------

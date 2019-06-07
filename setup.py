@@ -39,14 +39,8 @@ setup(
     zip_safe=False,
     install_requires=[
         # -*- Extra requirements: -*-
-        'plone.api>=1.8.4',
         'Products.GenericSetup>=1.8.2',
         'setuptools',
-        'plone.app.dexterity<=2.1.1',
-        'plone.app.referenceablebehavior',
-        'plone.app.relationfield',
-        'plone.app.lockingbehavior',
-        'plone.schema',
     ],
     extras_require={
         'test': [

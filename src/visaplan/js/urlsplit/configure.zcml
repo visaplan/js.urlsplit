@@ -14,8 +14,6 @@
 
   <include package=".browser" />
 
-  <include file="permissions.zcml" />
-
   <include file="upgrades.zcml" />
 
   <genericsetup:registerProfile

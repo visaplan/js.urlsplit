@@ -52,7 +52,7 @@ As a dependency
         ],
     ...
 
-- Add the package to your profile depencencies, e.g. in your ``profiles/default/metadata.xml``::
+- Add the package to your profile dependencies, e.g. in your ``…/profiles/default/metadata.xml``::
 
     <version>1000</version>
     <dependencies>

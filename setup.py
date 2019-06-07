@@ -88,6 +88,7 @@ setup_kwargs = dict(
     version=VERSION,
     description="Plone integration of urlSplit.js",
     long_description=long_description,
+    long_description_content_type='text/x-rst',
     # Get more from https://pypi.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Environment :: Web Environment",

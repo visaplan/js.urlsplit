@@ -6,7 +6,7 @@
 visaplan.js.urlsplit
 ====================
 
-This is a simple Zope / Plone integration of the `urlSplit.js`_ Javascript tool
+This is a simple Zope_ / Plone_ integration of the `urlSplit.js`_ Javascript tool
 which provides a ``urlSplit(url_string)`` function.
 
 Features
@@ -78,4 +78,6 @@ License
 
 The project is licensed under the MIT License.
 
+.. _Zope: https://www.zope.org
+.. _Plone: https://plone.org
 .. _`urlSplit.js`: https://github.com/hans-sperling/urlSplit.js

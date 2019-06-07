@@ -1,7 +1,8 @@
+=========
 Changelog
 =========
 
-1.0.1 (2019-06-07)
+1.0.2 (2019-06-07)
 ------------------
 
 - Corrected internet links; improved installation documentation.

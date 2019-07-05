@@ -122,7 +122,8 @@ setup_kwargs = dict(
             # plone.app.robotframework 1.2.0 requires plone.testing 4.0.11; 
             # plone.app.robotframework 1.3+ drops Plone 4.3 compatibility:
             'plone.testing',
-            'plone.app.robotframework[debug]',
+            # currently disabled because of import problems: 
+            # 'plone.app.robotframework[debug]',
         ],
     },
     entry_points="""

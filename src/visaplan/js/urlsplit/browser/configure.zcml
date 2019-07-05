@@ -5,10 +5,11 @@
     i18n_domain="visaplan.js.urlsplit">
 
   <!-- Publish static files -->
+  <!-- currently we can't use plone:static ...
   <plone:static
       name="visaplan.js.urlsplit"
       type="plone"
       directory="static"
-      />
+      /-->
 
 </configure>

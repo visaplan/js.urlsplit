@@ -114,6 +114,7 @@ setup_kwargs = dict(
     install_requires=[
         'setuptools',
         # -*- Extra requirements: -*-
+        'plone.resource',
         'Products.GenericSetup>=1.8.2',
     ],
     extras_require={

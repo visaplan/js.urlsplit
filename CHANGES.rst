@@ -2,6 +2,15 @@
 Changelog
 =========
 
+1.0.3 (unreleased)
+------------------
+
+- `test` extra fixed
+
+- dependency on `plone.resource`
+
+[tobiasherp]
+
 1.0.2 (2019-06-07)
 ------------------
 

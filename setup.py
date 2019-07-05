@@ -119,10 +119,9 @@ setup_kwargs = dict(
     extras_require={
         'test': [
             'plone.app.testing',
-            # Plone KGS does not use this version, because it would break
-            # Remove if your package shall be part of coredev.
-            # plone_coredev tests as of 2016-04-01.
-            'plone.testing>=5.0.0',
+            # plone.app.robotframework 1.2.0 requires plone.testing 4.0.11; 
+            # plone.app.robotframework 1.3+ drops Plone 4.3 compatibility:
+            'plone.testing',
             'plone.app.robotframework[debug]',
         ],
     },
